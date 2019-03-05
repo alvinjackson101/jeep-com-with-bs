@@ -15,6 +15,11 @@ body{
 
 }
 
+.menu-links button{
+
+	border: none;
+}
+
 .logo img{
 	
 	display: flex;
@@ -44,7 +49,7 @@ body{
 	margin-left:14px; 
 }
 
-#vehicles{
+#vlink{
 	
 	display: flex;
 	color: white;
