@@ -76,3 +76,33 @@ body{
 	padding-left: 8px;
 }
 
+.carousel-item-container {
+
+	display: flex;
+	text-align: center;
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+#first-carousel-item-container {
+    background-image: url('https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/hero/adaptive-hero/mobile.jpg.image.1000.jpg');
+}
+
+.carousel-title-image{
+
+	background-repeat: no-repeat;
+	background-size: contain;
+    min-height: 50px;
+    width: 186px;
+    background-image: url('https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/incentives/freedom-days-white-MY19.png')
+}
+
+/*background-color: rgba(0,0,0,.5);*/
+/*background box of carousel */
+
+/*https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/incentives/freedom-days-white-MY19.png*/
