@@ -2,12 +2,13 @@ body{
 
 	max-width:100%;
 	margin: 0px;
+	padding:0px;
 }
+
 
 .navbar {
  
  	display: flex;
-
 	background-color: #000000;
 	display: flex;
 	padding: 12px;
@@ -27,6 +28,7 @@ body{
 	width: auto;
 	flex: 3;
 	
+	
 
 }
 
@@ -42,11 +44,13 @@ body{
 	text-decoration: none;
 	font-size: 14px;
 
+
 }
 
 .menu-toggle {
 	height: inherit;
 	margin-left:14px; 
+	font-weight: bold;
 }
 
 #vlink{
@@ -54,5 +58,11 @@ body{
 	display: flex;
 	color: white;
 	margin-left: 14px;
+}
+
+.carousel-item img{
+
+	min-height: 300px;
+	width:auto;
 }
 
