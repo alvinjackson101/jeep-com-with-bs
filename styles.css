@@ -83,8 +83,8 @@ body{
     width: 500px;
     height: 500px;
     background-size: contain;
-	align-items: center;
 	justify-content: center;
+	align-items: flex-start;
 
 }
 
@@ -93,14 +93,83 @@ body{
     background-image: url('https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/hero/adaptive-hero/mobile.jpg.image.1000.jpg');
 }
 
+.carousel-shadow-box {
+    margin-top: 20px;
+    height: 250px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.shadow-box-content{
+
+	padding: 20px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shadow-box-content p {
+	margin: 8px;
+	line-height: 5px;
+	color:white;
+	font-size: 10px;
+	font-weight: bold;
+}
+
 .carousel-title-image{
 
 	background-repeat: no-repeat;
 	background-size: contain;
-    min-height: 50px;
+    min-height: 26px;
     width: 186px;
     background-image: url('https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/incentives/freedom-days-white-MY19.png')
 }
+
+.shadow-box-info{
+
+	display: flex;
+	flex-direction: column;
+}
+
+.shadow-box-info-middle-row{
+
+	display: flex;
+}
+
+.carousel-text{
+	
+	color: white;
+	font-weight: bold;
+	margin: 42px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.shadow-box-button-container{
+
+	margin: 20px;
+
+}
+
+.shadow-box-button{
+	background-color: #F5BB41;
+    padding:8px 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow-box-button p{
+    font-weight: bold;
+    line-height: 19px;
+    color: #000000;
+    font-size:1rem;
+
+}
+
+.shadow-box-button i {
+	color:#000;
+} 
 
 /*background-color: rgba(0,0,0,.5);*/
 /*background box of carousel */
