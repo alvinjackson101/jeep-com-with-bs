@@ -171,6 +171,66 @@ body{
 	color:#000;
 } 
 
+.vehicle-card-container{
+
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.vehicles-card1{
+
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+}
+
+.vehicles-card2{
+
+	text-align: center;
+	font-weight: bold;
+	font-family: arial;
+}
+
+.vehicles-card-title{
+
+	font-family: arial;
+	font-weight: bold;
+	padding: 24px 0px 10px 0px;
+	text-align: center;
+}
+
+.vehicles-msrp{
+
+	font-weight: lighter;
+	color: #787878;
+	font-size: 8px;
+
+}
+
+.vehicle-image img{
+
+	height: 64px;
+	width: auto;
+
+}
+
+.vehicles-price{
+
+	font-size: 14px;
+	margin-top: -14px;
+}
+
+.card{
+	border:0;
+}
+
+.card-body{
+
+	text-align: center;
+}
+
+
 /*background-color: rgba(0,0,0,.5);*/
 /*background box of carousel */
 
