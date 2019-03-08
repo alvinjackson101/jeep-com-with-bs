@@ -208,6 +208,34 @@ body{
 	text-align: center;
 }
 
+.card-section3{
+
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1d1d1;
+    margin:14px;
+
+}
+
+.card-bg{
+
+	background-color:#000000;
+}
+
+.container-section3{
+
+	background-color: #d1d1d1;
+}
+
+.card-title-section3 , .card-text-section3{
+
+	text-align: left;
+	font-family: arial;
+	font-size: 16px;
+	line-height: 18px;
+
+}
 
 /*background-color: rgba(0,0,0,.5);*/
 /*background box of carousel */
