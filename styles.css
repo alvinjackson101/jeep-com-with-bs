@@ -201,6 +201,8 @@ body{
 
 .card{
 	border:0;
+	padding:0px;
+
 }
 
 .card-body{
@@ -214,13 +216,15 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #d1d1d1;
-    margin:14px;
+    margin:12px;
+    padding-top: 12px; 
 
 }
 
 .card-bg{
 
 	background-color:#000000;
+	padding-bottom: 8px;
 }
 
 .container-section3{
@@ -235,6 +239,25 @@ body{
 	font-size: 16px;
 	line-height: 18px;
 
+}
+.card-section3-btn{
+
+	background-color: #212121;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 6px;
+	width: 100%;
+	text-align: right;
+
+}
+.section3-button-icon{
+
+	color:#F5BB41;
+	font-size: 14px;
+	padding-left: 24px;
 }
 
 /*background-color: rgba(0,0,0,.5);*/
