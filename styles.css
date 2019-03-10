@@ -218,6 +218,7 @@ body{
     background-color: #d1d1d1;
     margin:12px;
     padding-top: 12px; 
+    padding-bottom: 12px
 
 }
 
@@ -258,6 +259,35 @@ body{
 	color:#F5BB41;
 	font-size: 14px;
 	padding-left: 24px;
+}
+
+.container-customizing{
+
+	display: flex;
+	width: 100%;
+	background-color: #e7e7e7e7;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 24px;
+	line-height: 14px
+
+}
+
+.customizing-button{
+
+	background-color: #F5BB41;
+    padding:14px 24px 14px 24px;
+    width: 75%;
+    display: flex;
+    color: #000000;
+   
+}
+
+.cutomizing-button-icon{
+
+	font-size: 14px;
+	padding-left: 12px;
+
 }
 
 /*background-color: rgba(0,0,0,.5);*/
