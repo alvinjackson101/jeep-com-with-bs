@@ -7,6 +7,10 @@ body{
 }
 
 
+.container{
+	max-width:85%;
+}
+
 .navbar {
  
  	display: flex;
@@ -93,6 +97,9 @@ body{
 
 #first-carousel-item-container {
     background-image: url('https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/bhp/hero/adaptive-hero/mobile.jpg.image.1000.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
 }
 
 .carousel-shadow-box {
@@ -194,7 +201,10 @@ body{
 	font-weight: lighter;
 	color: #787878;
 	font-size: 8px;
+}
 
+.vehicles-section{
+	background-color:white;
 }
 
 .vehicles-price{
@@ -216,17 +226,7 @@ body{
 }
 
 .card-section3{
-
-	display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #d1d1d1;
-    margin:8px;
-    padding-top: 4px; 
-    padding-bottom: 4px;
-    padding-left: 4px;
-    padding-right: 4px;
-
 }
 
 .card-bg{
@@ -345,7 +345,38 @@ body{
     margin-bottom: 14px;
     font-weight: bold;
     font-size: 14px;
+    text-align: center;
 }
+
+.label-icon{
+
+	font-weight: bold;
+	color: #000000;
+	font-size: 12px;
+}
+
+
+.btn-search{
+
+
+}
+
+.footer-links a{
+
+	font-size: 14px;
+	color: #bfbfbf;
+	padding-top: 24px;
+	padding-bottom: 24px;
+
+}
+
+.footer-dropdown{
+
+	background-color: none;
+
+}
+
+
 
 /*background-color: rgba(0,0,0,.5);*/
 /*background box of carousel */
